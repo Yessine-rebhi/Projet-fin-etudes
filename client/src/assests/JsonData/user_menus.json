@@ -1,0 +1,21 @@
+[
+    {
+        "icon": "bx bx-user",
+        "content": "Profile",
+        "link":"/profile",
+        "index":1
+    },
+    {
+        "icon": "bx bx-line-chart",
+        "content": "Tableau de Bord",
+        "link":"/dashboard",
+        "index":2
+    },
+    {
+        "icon": "bx bx-log-out-circle bx-rotate-180",
+        "content": "Deconnexion",
+        "link":"/logout",
+        "index":3
+
+    }
+]

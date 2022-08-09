@@ -1,0 +1,43 @@
+[
+    {
+        "display_name": "Tableau De Bord",
+        "route": "/dashboard",
+        "icon": "bx bx-category-alt"
+    },
+   
+    {
+        "display_name": "Produits",
+        "route": "/products",
+        "icon": "bx bx-package"
+    },
+    {
+        "display_name": "Commandes",
+        "route": "/orders",
+        "icon": "bx bx-cart"
+    },
+    {
+        "display_name": "Analyses",
+        "route": "/analytics",
+        "icon": "bx bx-bar-chart-alt"
+    },
+    {
+        "display_name": "Catégories",
+        "route": "/categories",
+        "icon": "bx bx-list-ol"
+    },
+    {
+        "display_name": "Remise",
+        "route": "/discount",
+        "icon": "bx bx-gift"
+    },
+    {
+        "display_name": "Inventaire",
+        "route": "/inventory",
+        "icon": "bx bx-store-alt"
+    },
+    {
+        "display_name": "Paramétre",
+        "route": "/settings",
+        "icon": "bx bx-cog"
+    }
+]

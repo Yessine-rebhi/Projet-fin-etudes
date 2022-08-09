@@ -1,0 +1,32 @@
+.profileContainer {
+    margin-left: 20%;
+    margin-right: 2%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    
+}
+
+
+.profilepic {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    margin-top: 5%;
+    border-radius: 55px;
+    overflow:auto;
+
+  }
+
+.userProfile {
+    display: flex;
+    width: 150%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0rem 5rem;
+    transition: all 0.2s 0.7s;
+    overflow: hidden;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+

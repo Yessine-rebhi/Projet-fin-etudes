@@ -1,0 +1,101 @@
+html,
+body,
+#root,
+.login-form-admin {
+  height: 100%;
+  box-sizing: unset;
+  font-family: "Poppins", sans-serif;
+
+}
+
+
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.login-form-admin {
+  display: flow-root;
+  background-image: url("./sapiens.svg"); 
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: 65%;
+  
+}
+
+.btnAdmin {
+  width: 150px;
+  background-color: #c34048;
+  border: none;
+  outline: none;
+  height: 49px;
+  border-radius: 49px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.btnAdmin:hover {
+	background-color: #657288;
+  }
+  form.sign-in-form {
+  height: 700px;
+  
+  }
+
+form.sign-up-form , form.sign-in-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0rem 5rem;
+  transition: all 0.2s 0.7s;
+  overflow: hidden;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+
+.select, .input-field  {
+  max-width: 480px;
+  width: 80%;
+  margin: 5px 0;
+  height: 55px;
+  display: grid;
+}
+.input-field , .button-papier {
+  background-color: #f0f0f0;
+  border-radius: 55px;
+  grid-template-columns: 15% 85%;
+  position: relative;
+  padding: 0 0.4rem;
+}
+
+.input-field i {
+  text-align: center;
+  line-height: 55px;
+  color: #acacac;
+  transition: 0.5s;
+  font-size: 1.1rem;
+}
+
+.input-field input {
+  background: none;
+  outline: none;
+  border: none;
+  line-height: 1;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.input-field input::placeholder {
+  color: #aaa;
+  font-weight: 500;
+}
+
+
